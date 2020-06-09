@@ -8,7 +8,7 @@
  ************************************************************************/
 #pragma once
 
-#include <QTcpSocket>
+#include <QtNetwork/qtcpsocket.h>
 #include <QJsonObject>
 #include <QJsonDocument>
 #include <QJsonParseError>

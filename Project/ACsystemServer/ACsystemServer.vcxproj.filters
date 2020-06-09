@@ -50,6 +50,12 @@
     <ClCompile Include="TcpServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="queueRequestObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="queueServiceObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="ACsystemServer.qrc" />
@@ -65,6 +71,12 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="TcpServer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="queueRequestObject.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="queueServiceObject.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

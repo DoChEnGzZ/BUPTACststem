@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_ACsystemServer.h"
+#include"Scheduler.h"
 #include "TcpSocket.h"
 #include "TcpServer.h"
 
@@ -11,6 +12,7 @@ class ACsystemServer : public QMainWindow
 
 public:
     ACsystemServer(QWidget *parent = Q_NULLPTR);
+    Scheduler schduler;
 
 
 private slots:

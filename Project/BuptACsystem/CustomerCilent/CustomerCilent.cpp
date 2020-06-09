@@ -17,6 +17,10 @@ CustomerCilent::CustomerCilent(QWidget *parent)
         return;
     }
     qDebug() << "Connect Successfully!";
+    socket->turnOnAirConditioner(100);
+    socket->turnOnAirConditioner(200);
+    socket->turnOnAirConditioner(300);
+    socket->turnOnAirConditioner(400);
 
     /**********************************
     * ClientTcpSocket使用说明： 李卓
